@@ -3,12 +3,8 @@ import SectionHeader from '@/components/SectionHeader';
 
 
 export default function Prizes() {
-    const openDivisionPrizes = ['$400', '$200', '$100'];
-    const purdueDivisionPrizes = [
-        '4x Three Month Tryhackme Premium Vouchers',
-        '4x Two Month Tryhackme Premium Vouchers',
-        '4x One month Tryhackme Premium Vouchers'
-    ];
+    const openDivisionPrizes = ['$250', '$150', '$100'];
+    const studentDivisionPrizes = ['$250', '$150', '$100'];
 
     return (
         <>
@@ -26,19 +22,18 @@ export default function Prizes() {
                     ))}
                 </PrizeTable>
 
-                <PrizeTable division="Purdue">
-                    {purdueDivisionPrizes.map((p, i) => (
+                <PrizeTable division="Student">
+                    {studentDivisionPrizes.map((s, i) => (
                         <div className="table-row bg-black/20 divide-x divide-secondary" key={i}>
                             <div className="table-cell p-2 border-t border-secondary text-right">{i + 1}.</div>
-                            <div className="table-cell px-4 py-2 border-t border-secondary">{p}</div>
+                            <div className="table-cell px-4 py-2 border-t border-secondary">{s}</div>
                         </div>
                     ))}
                 </PrizeTable>
             </div>
 
             <p className="text-sm text-primary">
-                Prize transfers will be arranged with Venmo or Cashapp and can only be transferred to an entity in
-                the United States.
+                Prize transfers will be arranged with PayPal or Venmo. Winner must provide a valid email address to receive the prize and Student division teams must perform a verification process to confirm their student status.
             </p>
         </>
     )

@@ -1,8 +1,8 @@
 email:
-  from: no-reply@email.b01lers.com
+  from: no-reply@email.squ1rrel.dev
   provider:
     name: 'emails/mailgun'
     options:
       apiKey: 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-xxxxxxxx-xxxxxxxx'
-      domain: 'email.b01lers.com'
-logoUrl: 'https://b01lersc.tf/icon.svg'
+      domain: 'email.squ1rrel.dev'
+logoUrl: 'https://squ1rrel.dev/assets/images/favicon.webp'

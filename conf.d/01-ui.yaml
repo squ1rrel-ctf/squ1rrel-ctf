@@ -1,5 +1,5 @@
-ctfName: b01lers CTF
+ctfName: squ1rrel CTF
 meta:
-  description: 'A description of your CTF'
-  imageUrl: 'https://example.com'
+  description: 'squ1rrel CTF 2024'
+  imageUrl: 'https://squ1rrel.dev/assets/images/favicon.webp'
 homeContent: 'A description of your CTF. Markdown supported.'

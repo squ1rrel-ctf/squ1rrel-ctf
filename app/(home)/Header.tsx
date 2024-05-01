@@ -8,15 +8,15 @@ export default async function Header() {
 
     return (
         <header className="container flex flex-col items-center justify-center h-screen">
-            <img src="/assets/logo.svg" />
+            <img src="/assets/squ1rrel_logo.webp" />
             <Timer
                 startTime={config.data.startTime}
                 endTime={config.data.endTime}
             />
             <p className="mb-2 max-w-3xl text-center text-pretty">
-                b01lers CTF is the public competitive CTF hosted by the b01lers CTF team at Purdue University.
-                Join our discord at <a href="https://discord.gg/tBMqujE" target="_blank" rel="noopener noreferrer" className="text-theme-bright hover:underline">discord.gg/tBMqujE</a>{' '}
-                and look out for further info soon!
+                squ1rrel CTF is a jeopardy-style CTF hosted by the squ1rrel CTF team at Vanderbilt University<br></br>
+                Join our discord at <a href="https://discord.gg/ejfNarcz" target="_blank" rel="noopener noreferrer" className="text-theme-bright hover:underline">https://discord.gg/ejfNarcz</a>{' '}
+                and register your team to get started!
             </p>
             <div className="flex divide-x divide-primary text-sm">
                 <a href="#rules" className="px-4 py-2 uppercase hover:underline">Rules</a>
