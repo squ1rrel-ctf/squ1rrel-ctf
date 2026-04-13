@@ -11,7 +11,7 @@ export default function Sponsors() {
 
             <Sponsor
                 href="https://verialabs.com"
-                src="/assets/sponsors/veria.jpg"
+                src="/assets/sponsors/verialabs.png"
                 name="Veria Labs"
             >
 		Veria autonomously maps, exploits, and secures your entire attack surface.
