@@ -43,6 +43,8 @@ services:
     ports:
       - "9123:3000"
     restart: always
+    networks:
+      - rctf
 
 networks:
   rctf: {}

@@ -3,8 +3,8 @@ import SectionHeader from '@/components/SectionHeader';
 
 
 export default function Prizes() {
-    const openDivisionPrizes = ['$250', '$150', '$100'];
-    const studentDivisionPrizes = ['$250', '$150', '$100'];
+    const openDivisionPrizes = ['$200', '$150', '$100'];
+    const studentDivisionPrizes = ['$200', '$150', '$100'];
 
     return (
         <>

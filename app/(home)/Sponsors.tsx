@@ -10,6 +10,15 @@ export default function Sponsors() {
             </SectionHeader>
 
             <Sponsor
+                href="https://verialabs.com"
+                src="/assets/sponsors/veria.jpg"
+                name="Veria Labs"
+            >
+		Veria autonomously maps, exploits, and secures your entire attack surface.
+            </Sponsor>
+
+
+            {/* <Sponsor
                 href="https://www.trailofbits.com/"
                 src="/assets/sponsors/trail-of-bits-dark-alt.png"
                 name="Trail of Bits"
@@ -19,15 +28,8 @@ export default function Sponsors() {
                 <br />
                 <br />
                 To learn more about Trail of Bits, check out their website: <a href="https://www.trailofbits.com/" target="_blank" rel="noopener noreferrer" className="text-theme-bright hover:underline">https://www.trailofbits.com/</a>
-            </Sponsor>
+            </Sponsor> */}
 
-            <Sponsor
-                href="https://cloud.google.com/"
-                src="/assets/sponsors/google-cloud.jpg"
-                name="Google Cloud"
-            >
-                Infra sponsored by goo.gle/ctfsponsorship
-            </Sponsor>
         </section>
     )
 }

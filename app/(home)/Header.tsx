@@ -15,7 +15,7 @@ export default async function Header() {
             />
             <p className="mb-2 max-w-3xl text-center text-pretty">
                 squ1rrel CTF is a jeopardy-style CTF hosted by the squ1rrel CTF team at Vanderbilt University<br></br>
-                Join our discord at <a href="https://discord.gg/A6dTKTXNDD" target="_blank" rel="noopener noreferrer" className="text-theme-bright hover:underline">https://discord.gg/ejfNarcz</a>{' '}
+                Join our discord at <a href="https://discord.gg/A6dTKTXNDD" target="_blank" rel="noopener noreferrer" className="text-theme-bright hover:underline">https://discord.gg/A6dTKTXNDD</a>{' '}
                 and register your team to get started!
             </p>
             <div className="flex divide-x divide-primary text-sm">
