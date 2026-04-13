@@ -8,7 +8,7 @@ type Preferences = {
 
 export const defaultPreferences: Preferences = {
     grid: false,
-    animations: true
+    animations: false
 }
 
 type PreferencesContext = {

@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     env: {
-        API_BASE: 'https://ctf.squ1rrel.dev:9000/api/v1',
+	API_BASE: 'https://ctf.squ1rrel.dev/api/v1',
         KLODD_URL: 'https://instancer.squ1rrel.tf'
     },
     logging: {

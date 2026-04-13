@@ -21,7 +21,7 @@ export default function Rules() {
                     Open division teams may be of any size and composition.
                 </li>
                 <li>
-                    Join the discord server at <a href="https://discord.gg/ejfNarcz" target="_blank" rel="noopener noreferrer" className="text-theme-bright hover:underline">https://discord.gg/ejfNarcz</a> and contact admins by creating a ticket in #open-ticket
+                    Join the discord server at <a href="https://discord.gg/A6dTKTXNDD" target="_blank" rel="noopener noreferrer" className="text-theme-bright hover:underline">https://discord.gg/ejfNarcz</a> and contact admins by creating a ticket in #open-ticket
                 </li>
                 <li>
                     All teams must provide a valid email address to be eligible for prizes

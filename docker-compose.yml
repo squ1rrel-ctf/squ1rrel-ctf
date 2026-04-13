@@ -39,7 +39,7 @@ services:
     container_name: bctf
     build:
       dockerfile: ./Dockerfile
-      context: ../bctf
+      context: .
     ports:
       - "9123:3000"
     restart: always
