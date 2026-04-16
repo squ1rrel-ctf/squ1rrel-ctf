@@ -1,6 +1,6 @@
-# bctf
+# squ1rrel-ctf
 
-The updated website for b01lers CTF!
+The website for squ1rrel CTF!
 
 This website was heavily inspired by [LA CTF](https://platform.lac.tf/) and the default rCTF frontend.
 
@@ -28,7 +28,7 @@ the Klodd instancer frontend:
 ```js
 const nextConfig = {
     env: {
-        API_BASE: 'http://ctf.b01lers.com:9000/api/v1',
+        API_BASE: 'https://ctf.squ1rrel.dev/api/v1',
         KLODD_URL: 'https://klodd.localhost.direct'
     }
 }
