@@ -21,10 +21,10 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
     title: {
-        absolute: 'squ1rrel CTF 2024',
-        template: '%s - squ1rrel CTF 2024'
+        absolute: 'squ1rrelCTF 2026',
+        template: '%s - squ1rrelCTF 2026'
     },
-    description: 'squ1rrel CTF is a jeopardy-style CTF hosted by the squ1rrel CTF team at Vanderbilt University',
+    description: 'squ1rrelCTF is a jeopardy-style CTF hosted by the squ1rrel CTF team at Vanderbilt University',
 }
 
 export default function RootLayout(props: { children: ReactNode }) {
