@@ -26,7 +26,7 @@ export default function Sponsors() {
 
             <Sponsor
                 href="https://zellic.io"
-                src="/assets/sponsors/zellic_logos_primary/RGB_zellic-logo-primary-dark.png"
+                src="/assets/sponsors/zellic_logos_primary/RGB_zellic-logo-primary-dark.jpg"
                 name="Zellic"
             >
                 Zellic is a security research firm. Our targets include compilers, virtual machines, web apps, circuits, proof systems, and more. Before Zellic, we previously founded perfect blue, the #1 CTF team in 2020 and 2021. If you're smart and good at CTFs, we'd love to meet you.
