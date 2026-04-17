@@ -19,6 +19,10 @@ const nextConfig = {
             {
                 source: '/admin/:path*',
                 destination: 'http://rctf/admin/:path*'
+            },
+            {
+                source: '/bundle.:path*',
+                destination: 'http://rctf/bundle.:path*'
             }
         ]
     }
