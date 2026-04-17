@@ -1,0 +1,11 @@
+.git
+.next
+node_modules
+data
+.env
+conf.d/04-email.yaml
+conf.d/05-uploads.yaml
+conf.d/06-secrets.yaml
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
