@@ -15,6 +15,10 @@ const nextConfig = {
             {
                 source: '/api/v1/:path*',
                 destination: `${this.env.API_BASE}/:path*`
+            },
+            {
+                source: '/admin/:path*',
+                destination: 'http://rctf/admin/:path*'
             }
         ]
     }
