@@ -22,6 +22,7 @@ export default function Sponsors() {
                 src="/assets/sponsors/paloaltonetworks.jpg"
                 name="Palo Alto Networks"
             >
+	        Palo Alto Networks is a leading global cybersecurity company providing AI-driven, cloud-native, security platforms to enterprises, service providers, and governments.
             </Sponsor>
 
             <Sponsor

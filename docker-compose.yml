@@ -13,6 +13,7 @@ services:
       - PORT=80
     volumes:
       - ./conf.d:/app/conf.d
+      - ./nginx.conf:/etc/nginx/conf.d/upload-size.conf
     depends_on:
       - redis
       - postgres
